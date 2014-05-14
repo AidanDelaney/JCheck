@@ -5,6 +5,16 @@
   <version>1.0.0-SNAPSHOT</version>
   <name>JCheck</name>
   <description>JCheck is a specification-based random testing tool that is loosely based upon the popular library QuickCheck for Haskell. It provides a custom JUnit runner for easy integration with JUnit and JUnit-tools.</description>
+  <packaging>pom</packaging>
+
+  <licenses>
+    <license>
+      <name>Common Public License, Version 1.0</name>
+      <url>http://opensource.org/licenses/cpl1.0.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -35,5 +45,6 @@
 
   <scm>
     <url>https://github.com/AidanDelaney/JCheck.git</url>
+    <connection>scm:git:https://github.com/AidanDelaney/JCheck.git</connection>
   </scm>
 </project>
